@@ -1,0 +1,380 @@
+.offcanvas-header {
+    /* box-shadow: 0px 0px 10px grey; */
+    height: 12vh;
+}
+
+.offcanvas {
+    /* box-shadow: 0px 0px 20px rgb(255, 255, 255); */
+    width: 100% !important;
+    border: 0px !important;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background-color: #fff;
+    border-left: 1px solid #440099 ;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #440099 ;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 40px #440099 ;
+    box-shadow: 0px 0px 40px #440099 ;
+}
+
+/* EN EL MOBILE */
+@media screen and (max-width: 550px) {
+
+    .sectionHerr {
+        width: 100% !important;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+   
+        padding: 2rem;
+    }
+
+    .mainOrange {
+        background-color: #440099 ;
+        width: 100%;
+        height: 25rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        padding: 2rem;
+    }
+
+    .mainConte {
+        position: relative !important;
+        top: 17rem !important;
+        width: 100% !important;
+        height: auto !important;
+        z-index: 100 !important;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .containerCardHerr {
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+        box-shadow: 0px 0px 10px grey;
+        padding: 2rem;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        gap: 2rem;
+        color: white;
+    }
+
+    .containerImgHerr {
+        width: 100%;
+        height: auto;
+        display: flex !important;
+        flex-flow: row wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+    }
+
+    .imgCardHerr {
+        width: 10rem;
+        height: auto;
+    }
+
+    .iconCard {
+        width: 100%;
+        height: auto;
+        display: flex !important;
+        flex-flow: row wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+        margin-top: 1rem !important;
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .servicescontainer {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+}
+
+/* En el escritorio se ve del lado izquierdo */
+@media screen and (min-width: 550px) {
+    body::-webkit-scrollbar {
+        width: 7px;
+        background-color: #fff;
+        border-left: 1px solid #440099 ;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: #440099 ;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 40px #440099 ;
+        box-shadow: 0px 0px 40px #440099 ;
+    }
+
+    .offcanvas {
+        /* box-shadow: 0px 0px 20px grey; */
+        width: 93.5% !important;
+        border: 0px !important;
+        box-shadow: 0px 0px 10px grey !important;
+    }
+
+    .offcanvas-header {
+        /* box-shadow: 0px 0px 10px grey; */
+        height: 8vh !important;
+    }
+
+    .textOculto {
+        min-height: 120px;
+    }
+
+    .bodycardperso {
+        width: 100%;
+    }
+
+    .offcanvas-backdrop.show {
+        opacity: .1;
+        background-color: #440099 !important;
+        box-shadow: 0px 0px 10px grey !important;
+    }
+
+    .fade {
+        transition: opacity .15s linear;
+        background-color: #440099 !important;
+    }
+
+    .offcanvas-header {
+        /* background-color: #440099 !important; */
+        box-shadow: 0px 0px 10px grey !important;
+    }
+
+    .offcanvas-title {
+        color: black;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .sectionHerr {
+        width: 100% !important;
+        height: auto !important;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        padding: 2rem;
+        overflow: auto !important;
+    }
+
+    .mainOrange {
+        background-color: #440099 ;
+        width: 100%;
+        height: 20rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+
+    }
+
+    .mainConte {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: relative;
+        top: 11rem;
+        width: 100%;
+        height: auto;
+        z-index: 100;
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    .containerCardHerr {
+        width: 23rem;
+        height: auto;
+        background-color: #f1f1f1;
+        box-shadow: 0px 0px 10px grey;
+        padding: 2rem;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        gap: 2rem;
+        color: white;
+    }
+
+    .containerImgHerr {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .imgCardHerr {
+        width: 5rem;
+        height: auto;
+    }
+
+    .iconCard {
+        width: 100%;
+        height: auto;
+        display: flex !important;
+        flex-flow: row wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+        margin-top: 1rem !important;
+    }
+
+    .section-title {
+        padding: 2rem;
+    }
+
+    .servicescontainer {
+        width: 100% !important;
+        height: auto !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}
+
+.wave {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1;
+    z-index: -1;
+}
+
+.titleCard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.containerCardHerr {
+    transition: .5s;
+}
+
+.containerCardHerr:hover {
+    color: #440099 ;
+    box-shadow: 0px 0px 10px #440099 ;
+    scale: 1.05;
+    transition: .5s;
+}
+
+.containerBTN {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sm\:py-32 {
+    padding: 0rem !important;
+}
+
+.lg\:py-40 {
+    padding: 0rem !important;
+}
+
+.containerinfoherr {
+    box-shadow: 0px 0px 10px grey !important;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.portfolio-details-slider {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey !important;
+    margin-bottom: 1rem;
+}
+
+.portfolio-info {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey !important;
+    background-color: #f1f1f1;
+}
+
+.portfolio-description {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey !important;
+    background-color: #f1f1f1;
+    padding: 2rem;
+}
+
+.infoContainer {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-img-overlay {
+    padding: 2rem;
+}
+
+.card {
+    box-shadow: 0px 0px 10px grey;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px #440099 !important;
+    color: #440099 !important;
+    scale: 1.1;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.img-card{
+    background-image: url(../Modals/img/cards/card-2.png);
+}
+
+.mt-5 {
+    margin-top: 0rem !important;
+}
